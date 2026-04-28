@@ -1,0 +1,22 @@
+# Ignore generated data (script creates this locally)
+data/raw/*.dta
+data/raw/*.csv
+data/clean/*.dta
+data/clean/*.csv
+
+# Ignore generated output tables and figures
+output/tables/*
+output/figures/*
+!output/tables/.gitkeep
+!output/figures/.gitkeep
+
+# Ignore Stata log files and temp files
+*.log
+*.smcl
+*.tmp
+*.ster
+
+# Ignore R environment history
+.Rhistory
+.RData
+.Ruserdata
